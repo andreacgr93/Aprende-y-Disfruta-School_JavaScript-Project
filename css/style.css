@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Calibri.woff') format('woff'),
+    url('../fonts/Calibri.ttf')  format('truetype'),
+    url('../fonts/Calibri.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Calibri' !important;
+}
+
+body {
+    color: black;
+    background-image: url('../images/header-bg.jpg');
+    background-size: cover;
+}
+
+.lead, .h1 {
+    color: white;
+}
+
+img {
+    vertical-align: baseline;
+}
+
+label {
+    color: white;
+}
+
+
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.p-2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.p-2:hover, .p-2:focus, .p-2:active {
+    color: white;
+    border-top: 5px solid darkblue;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+a {
+    color: purple;
+}
+
+a:hover, a:active {
+    color: darkblue;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Containers
+--------------------------------------------------------------*/
+
+.center{
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.every-event{
+    flex: 1 1;
+    padding: 2vh;
+    margin: 2vh;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.event-list{
+    flex: none; 
+    width:100%;
+}
+
+.date-place-color{
+    color: grey;
+}
+
+.price-color{
+    color: cornflowerblue;
+}
+
+.guests-color{
+    color: orange;
+}
+
+/*--------------------------------------------------------------
+# Botones
+--------------------------------------------------------------*/
+.btn {
+    padding: 16px 46px;
+    border: 2px solid #9a24c1;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #232127;
+}
+
+.btn.gradient {
+    background-image: -webkit-gradient(linear, left top, 270deg, color-stop(0%, #AA00FF), color-stop(100%, #581687));
+    background-image: -moz-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
+    background-image: -webkit-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
+    background-image: -o-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
+    background-image: -ms-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
+    background-image: linear-gradient(270deg,#AA00FF 0%,#581687 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.btn.dark-purple {
+    background: #9a24c1;
+    color: #fff;
+}
+
+.btn.gradient-bg {
+    padding: 18px 46px;
+    border: 0;
+    background: -moz-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(88,20,121,1)), color-stop(100%, rgba(171,0,229,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ie10+ */
+    background: linear-gradient(270deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* w3c */
+    color: #fff;
+}
+
+.btn:hover{
+    color: lightblue;
+}
+
+/*--------------------------------------------------------------
+# Errors
+--------------------------------------------------------------*/
+.text-danger{
+    color: yellow;
+    padding-left: 1rem;
+}
+
+
+/*--------------------------------------------------------------
+# Site Footer
+--------------------------------------------------------------*/
+.site-footer {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
